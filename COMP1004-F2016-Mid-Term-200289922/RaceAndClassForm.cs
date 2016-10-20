@@ -55,5 +55,13 @@ namespace COMP1004_F2016_Mid_Term_200289922
             finalForm.Show();
             this.Hide();
         }
+
+        private void RaceAndClassForm_Load(object sender, EventArgs e)
+        {
+            //check to see if a race is set if not do this
+            if (Program.character.Race == "") {
+                HumanRadioButton.AutoCheck = true;
+            }
+        }
     }
 }

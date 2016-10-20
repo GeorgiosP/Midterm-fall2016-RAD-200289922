@@ -143,6 +143,7 @@
             this.Name = "RaceAndClassForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Race And Class Selection";
+            this.Load += new System.EventHandler(this.RaceAndClassForm_Load);
             this.RaceGroupBox.ResumeLayout(false);
             this.RaceGroupBox.PerformLayout();
             this.ResumeLayout(false);

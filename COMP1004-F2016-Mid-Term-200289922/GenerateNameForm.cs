@@ -90,6 +90,13 @@ namespace COMP1004_F2016_Mid_Term_200289922
         private void GenerateNameForm_Load(object sender, EventArgs e)
         {
             this._random = new Random();
+            if (Program.character.FirstName != null) {
+                FirstNameTextBox.Text = Program.character.FirstName.ToString();
+                    }
+            if (Program.character.LastName != null)
+            {
+                LastNameTextBox.Text = Program.character.LastName.ToString();
+            }
         }
     }
 }

@@ -13,7 +13,7 @@ namespace COMP1004_F2016_Mid_Term_200289922
 {
     public partial class RaceAndClassForm : Form
     {
-        public AbilityGeneratorForm previousForm;
+        public GenerateNameForm previousForm;
         private string _selectedRace;
 
 
@@ -44,6 +44,11 @@ namespace COMP1004_F2016_Mid_Term_200289922
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+
+            Character character = Program.character;
+
+            character.Race = this._selectedRace;
+
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
 

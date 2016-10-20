@@ -38,5 +38,32 @@ namespace COMP1004_F2016_Mid_Term_200289922
         {
             Application.Exit();
         }
+        /*
+         * I wrote a method that will take the characters stats and display 
+         * them into the next boxs of the final form once its loaded 
+         */
+        public void CharacterStats()
+        {
+            StrengthTextBox.Text = Program.character.Strength.ToString();
+            DexterityTextBox.Text = Program.character.Dexterity.ToString();
+            ConstitutionTextBox.Text = Program.character.Constitution.ToString();
+            IntelligenceTextBox.Text = Program.character.Intelligence.ToString();
+            WisdomTextBox.Text = Program.character.Wisdom.ToString();
+            CharismaTextBox.Text = Program.character.Charisma.ToString();
+
+            FirstNameTextBox.Text = Program.character.FirstName.ToString();
+            LastNameTextBox.Text = Program.character.LastName.ToString();
+
+            RaceTextBox.Text = Program.character.Race.ToString();
+
+        }
+
+        /*
+         * I call the load method here and place my Character stats method inside 
+         */
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            CharacterStats();
+        }
     }
 }

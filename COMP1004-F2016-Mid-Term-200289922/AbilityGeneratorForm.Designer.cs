@@ -240,6 +240,7 @@
             this.Name = "AbilityGeneratorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ability Generator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AbilityGeneratorForm_FormClosing);
             this.Load += new System.EventHandler(this.GeneratorForm_Load);
             this.AbilityGroupBox.ResumeLayout(false);
             this.AbilityGroupBox.PerformLayout();

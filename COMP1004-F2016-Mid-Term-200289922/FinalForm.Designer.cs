@@ -53,9 +53,9 @@
             this.LastNameLabel2 = new System.Windows.Forms.Label();
             this.LastNameTextBox = new System.Windows.Forms.TextBox();
             this.FirstNameLabel2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FirstNameTextBox = new System.Windows.Forms.TextBox();
             this.RaceLabel = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.RaceTextBox = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.AbilityGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -119,7 +119,7 @@
             // 
             this.BackButton.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackButton.Location = new System.Drawing.Point(16, 528);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(4);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(151, 49);
             this.BackButton.TabIndex = 5;
@@ -131,7 +131,7 @@
             // 
             this.ExitButton.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.Location = new System.Drawing.Point(505, 528);
-            this.ExitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(4);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(151, 49);
             this.ExitButton.TabIndex = 6;
@@ -155,9 +155,9 @@
             this.AbilityGroupBox.Controls.Add(this.StrengthLabel);
             this.AbilityGroupBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AbilityGroupBox.Location = new System.Drawing.Point(16, 33);
-            this.AbilityGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AbilityGroupBox.Margin = new System.Windows.Forms.Padding(4);
             this.AbilityGroupBox.Name = "AbilityGroupBox";
-            this.AbilityGroupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AbilityGroupBox.Padding = new System.Windows.Forms.Padding(4);
             this.AbilityGroupBox.Size = new System.Drawing.Size(195, 487);
             this.AbilityGroupBox.TabIndex = 7;
             this.AbilityGroupBox.TabStop = false;
@@ -167,7 +167,7 @@
             // 
             this.CharismaTextBox.BackColor = System.Drawing.Color.White;
             this.CharismaTextBox.Location = new System.Drawing.Point(9, 444);
-            this.CharismaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CharismaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CharismaTextBox.Name = "CharismaTextBox";
             this.CharismaTextBox.ReadOnly = true;
             this.CharismaTextBox.Size = new System.Drawing.Size(168, 31);
@@ -189,7 +189,7 @@
             // 
             this.WisdomTextBox.BackColor = System.Drawing.Color.White;
             this.WisdomTextBox.Location = new System.Drawing.Point(9, 370);
-            this.WisdomTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.WisdomTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.WisdomTextBox.Name = "WisdomTextBox";
             this.WisdomTextBox.ReadOnly = true;
             this.WisdomTextBox.Size = new System.Drawing.Size(168, 31);
@@ -211,7 +211,7 @@
             // 
             this.IntelligenceTextBox.BackColor = System.Drawing.Color.White;
             this.IntelligenceTextBox.Location = new System.Drawing.Point(9, 297);
-            this.IntelligenceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IntelligenceTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.IntelligenceTextBox.Name = "IntelligenceTextBox";
             this.IntelligenceTextBox.ReadOnly = true;
             this.IntelligenceTextBox.Size = new System.Drawing.Size(168, 31);
@@ -233,7 +233,7 @@
             // 
             this.ConstitutionTextBox.BackColor = System.Drawing.Color.White;
             this.ConstitutionTextBox.Location = new System.Drawing.Point(9, 223);
-            this.ConstitutionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConstitutionTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ConstitutionTextBox.Name = "ConstitutionTextBox";
             this.ConstitutionTextBox.ReadOnly = true;
             this.ConstitutionTextBox.Size = new System.Drawing.Size(168, 31);
@@ -255,7 +255,7 @@
             // 
             this.DexterityTextBox.BackColor = System.Drawing.Color.White;
             this.DexterityTextBox.Location = new System.Drawing.Point(9, 149);
-            this.DexterityTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DexterityTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.DexterityTextBox.Name = "DexterityTextBox";
             this.DexterityTextBox.ReadOnly = true;
             this.DexterityTextBox.Size = new System.Drawing.Size(168, 31);
@@ -277,7 +277,7 @@
             // 
             this.StrengthTextBox.BackColor = System.Drawing.Color.White;
             this.StrengthTextBox.Location = new System.Drawing.Point(9, 75);
-            this.StrengthTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StrengthTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.StrengthTextBox.Name = "StrengthTextBox";
             this.StrengthTextBox.ReadOnly = true;
             this.StrengthTextBox.Size = new System.Drawing.Size(168, 31);
@@ -310,7 +310,7 @@
             // 
             this.LastNameTextBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LastNameTextBox.Location = new System.Drawing.Point(453, 66);
-            this.LastNameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LastNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.LastNameTextBox.Name = "LastNameTextBox";
             this.LastNameTextBox.Size = new System.Drawing.Size(201, 31);
             this.LastNameTextBox.TabIndex = 10;
@@ -326,14 +326,14 @@
             this.FirstNameLabel2.TabIndex = 9;
             this.FirstNameLabel2.Text = "First Name";
             // 
-            // textBox1
+            // FirstNameTextBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(224, 66);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(201, 31);
-            this.textBox1.TabIndex = 8;
+            this.FirstNameTextBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstNameTextBox.Location = new System.Drawing.Point(224, 66);
+            this.FirstNameTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.FirstNameTextBox.Name = "FirstNameTextBox";
+            this.FirstNameTextBox.Size = new System.Drawing.Size(201, 31);
+            this.FirstNameTextBox.TabIndex = 8;
             // 
             // RaceLabel
             // 
@@ -346,14 +346,14 @@
             this.RaceLabel.TabIndex = 13;
             this.RaceLabel.Text = "Race";
             // 
-            // textBox2
+            // RaceTextBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(224, 182);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(201, 31);
-            this.textBox2.TabIndex = 12;
+            this.RaceTextBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RaceTextBox.Location = new System.Drawing.Point(224, 182);
+            this.RaceTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.RaceTextBox.Name = "RaceTextBox";
+            this.RaceTextBox.Size = new System.Drawing.Size(201, 31);
+            this.RaceTextBox.TabIndex = 12;
             // 
             // FinalForm
             // 
@@ -363,21 +363,22 @@
             this.ClientSize = new System.Drawing.Size(708, 624);
             this.ControlBox = false;
             this.Controls.Add(this.RaceLabel);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.RaceTextBox);
             this.Controls.Add(this.LastNameLabel2);
             this.Controls.Add(this.LastNameTextBox);
             this.Controls.Add(this.FirstNameLabel2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.FirstNameTextBox);
             this.Controls.Add(this.AbilityGroupBox);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FinalForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Final Form";
+            this.Load += new System.EventHandler(this.FinalForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.AbilityGroupBox.ResumeLayout(false);
@@ -414,8 +415,8 @@
         private System.Windows.Forms.Label LastNameLabel2;
         private System.Windows.Forms.TextBox LastNameTextBox;
         private System.Windows.Forms.Label FirstNameLabel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FirstNameTextBox;
         private System.Windows.Forms.Label RaceLabel;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox RaceTextBox;
     }
 }

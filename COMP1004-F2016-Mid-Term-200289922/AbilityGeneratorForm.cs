@@ -94,7 +94,7 @@ namespace COMP1004_F2016_Mid_Term_200289922
 
             // Step 2 - Instantiate an object for the form type
             // you are going to next
-            RaceAndClassForm raceAndClassForm = new RaceAndClassForm();
+            GenerateNameForm generateNameForm = new GenerateNameForm();
 
             // Step 3 - create a property in the next form that 
             // we will use to point to this form
@@ -102,10 +102,15 @@ namespace COMP1004_F2016_Mid_Term_200289922
 
             // Step 4 - point this form to the parent Form 
             // property in the next form
-            raceAndClassForm.previousForm = this;
+            generateNameForm.previousForm = this;
 
             // Step 5 - Show the next form
-            raceAndClassForm.Show();
+            generateNameForm.Show();
+        }
+
+        private void AbilityGeneratorForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
